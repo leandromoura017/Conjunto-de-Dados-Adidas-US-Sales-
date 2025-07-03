@@ -13,3 +13,13 @@ O objetivo é conduzir uma análise exploratória e inferencial sobre as vendas 
 4. Testes de hipótese (ANOVA) sobre variáveis qualitativas.
 
 5. Modelo de regressão linear para prever o lucro operacional, com análise de pressupostos (normalidade, homocedasticidade, multicolinearidade).
+
+# 🛠️ Tecnologias & Instalação
+Python 3.8+
+
+Bibliotecas:
+
+bash
+`pip install pandas numpy matplotlib seaborn scipy statsmodel`
+
+Editor recomendado: Visual Studio Code com extensões Python e Jupyter
