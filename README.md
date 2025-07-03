@@ -15,11 +15,36 @@ O objetivo é conduzir uma análise exploratória e inferencial sobre as vendas 
 5. Modelo de regressão linear para prever o lucro operacional, com análise de pressupostos (normalidade, homocedasticidade, multicolinearidade).
 
 # 🛠️ Tecnologias & Instalação
-Python 3.8+
 
-Bibliotecas:
+- Python 3.8+
 
-bash
-`pip install pandas numpy matplotlib seaborn scipy statsmodel`
+- Bibliotecas:
 
-Editor recomendado: Visual Studio Code com extensões Python e Jupyter
+  `pip install pandas numpy matplotlib seaborn scipy statsmodel`
+
+- Editor recomendado: Visual Studio Code com extensões Python e Jupyter
+
+# 📈 Resultados e Conclusões
+
+- Distribuições: identificados outliers e desbalanceamentos em diversas variáveis.
+
+- Correlação: `vendas totais` e `lucro operacional` com correlação ~0,95.
+
+- ANOVA: detectada significância estatística por método de venda e por varejista.
+
+- Regressão Linear: modelo altamente explicativo (R² elevado); pressupostos atendidos após análise gráfica e teste.
+
+# 📋 Como Executar
+
+1. Clone o repositório:
+
+  `git clone https://github.com/seu-usuario/adidas-us-sales-analysis.git`
+  
+2. Use o ambiente virtual:
+
+  `python -m venv venv && venv\Scripts\activate  # Windows
+  pip install -r requirements.txt`
+
+3. Abra um notebook (`.ipynb`) no VS Code, Jupyter Notebook ou JupyterLab.
+
+4. Execute todas as células — após isso, os gráficos verão exibidos e salvos na pasta `plots/`.
