@@ -4,12 +4,12 @@ Este repositório contém o código completo utilizado para análise estatístic
 # 🚀 Visão Geral
 O objetivo é conduzir uma análise exploratória e inferencial sobre as vendas da Adidas nos EUA (2020–2021), incluindo:
 
-Exploração dos dados: tratamento de inconsistências, verificação de formatos, outliers e dados faltantes.
+1. Exploração dos dados: tratamento de inconsistências, verificação de formatos, outliers e dados faltantes.
 
-Estatísticas descritivas: cálculo de média, mediana, variância, histogramas, Q‑Q plots e box‑plots.
+2. Estatísticas descritivas: cálculo de média, mediana, variância, histogramas, Q‑Q plots e box‑plots.
 
-Correlação entre variáveis quantitativas (Pearson/Spearman).
+3. Correlação entre variáveis quantitativas (Pearson/Spearman).
 
-Testes de hipótese (ANOVA) sobre variáveis qualitativas.
+4. Testes de hipótese (ANOVA) sobre variáveis qualitativas.
 
-Modelo de regressão linear para prever o lucro operacional, com análise de pressupostos (normalidade, homocedasticidade, multicolinearidade).
+5. Modelo de regressão linear para prever o lucro operacional, com análise de pressupostos (normalidade, homocedasticidade, multicolinearidade).
